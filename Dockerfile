@@ -1,6 +1,6 @@
-FROM atlassian/default-image:latest
+FROM atlassian/default-image:2.02
 
-ENV CLOUD_SDK_VERSION 170.0.1
+ENV CLOUD_SDK_VERSION 198.0.0
 
 RUN apt-get -qqy update && apt-get install -qqy \
         apt-transport-https \
